@@ -1,0 +1,16 @@
+﻿@page "/write"
+
+<h3>Create</h3>
+
+<AuthorizeView>
+    <Authorized>
+        <p>Only authenticated users can see this content.</p>
+    </Authorized>
+    <NotAuthorized>
+        <p>Only authenticated users can see this content.</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+
+}
